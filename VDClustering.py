@@ -1,3 +1,6 @@
+#Supervised models developed by AutoVAS: https://github.com/kppw99/AutoVAS
+#Check out their project!
+
 import os
 import datetime
 import numpy as np
@@ -673,7 +676,7 @@ def c_fit_and_result(X, model_func, method):
             for i in K_RANGE:
                 model = model_func(i)
                 model.fit(X)
-                wss.append(model.inertia_) #!!! Square distance (only for kmeans!!!)
+                wss.append(model.inertia_)
                 if (i == 1):
                     total = model.inertia_
                     continue
