@@ -36,7 +36,7 @@ from imblearn.over_sampling import SMOTE
 from yellowbrick.cluster import KElbowVisualizer
 
 
-FILEPATH = 'D:\Cosas útiles\Ciber\TFM\Files\AutoVAS-master\dataset\token'
+FILEPATH = '..\..\dataset\token'
 _SNIPPET_FILES = [
     FILEPATH + 'sard_result_0001_1000.txt',
     FILEPATH + 'sard_result_1001_2000.txt',
