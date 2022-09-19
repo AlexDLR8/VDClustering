@@ -1,4 +1,4 @@
-#Supervised models developed by AutoVAS: https://github.com/kppw99/AutoVAS
+#This project is base on AutoVAS: https://github.com/kppw99/AutoVAS
 #Check out their project!
 
 import os
